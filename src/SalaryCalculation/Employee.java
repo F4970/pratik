@@ -64,6 +64,7 @@ public class Employee {
         return paymentOfBonus;
     }
 
+
     public double raiseSalary(){
 
         int timeOfYear = 2021;
@@ -82,5 +83,17 @@ public class Employee {
 
     }
 
+
+    @Override
+    public String toString() {
+        return "Employee{" +
+                "name='" + name + '\'' +
+                ", salary=" + salary +
+                ", workHours=" + workHours +
+                ", year=" + year +
+                '}';
+    }
+
 }
+
 
